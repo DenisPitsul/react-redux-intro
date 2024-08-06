@@ -1,0 +1,98 @@
+.userCard {
+  font-family: sans-serif;
+  font-size: 16px;
+  min-width: 280px;
+  width: 100%;
+  max-width: 320px;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.backgroundColor {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #00000044;
+}
+
+.userImageWrapper {
+  height: 320px;
+  background-color: #333333;
+  z-index: 2;
+  position: relative;
+}
+
+.userImage {
+  width: 100%;
+  object-fit: cover;
+}
+
+.starIcon {
+  font-size: 20px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  color: #333333;
+  cursor: pointer;
+}
+
+.userContent {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: wheat;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: -20px;
+}
+
+.fullName {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.userName {
+  font-size: 16px;
+}
+
+.addButton {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 5px 15px red;
+}
+
+.userInfo {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 0;
+}
+
+.userInfoItem {
+  text-align: center;
+}
+
+.statisticTitle {
+  font-size: 12px;
+  color: #909090;
+  margin-bottom: 10px;
+}
+
+.statisticValue {
+  font-size: 18px;
+  font-weight: 600;
+  color: #303030;
+}
